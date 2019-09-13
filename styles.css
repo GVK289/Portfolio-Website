@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    color: black;
+}
+
+h1 {
+    border: 5px solid;
+    border-top-color: orange;
+    border-bottom-color: green;
+    background-color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    border: 4px silver;
+}
+
+.AboutMe {
+    border: 3px double red;
+    color: red;
+    background-color: lightpink;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 10px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.Skills {
+    border: 3px double red;
+    color: purple;
+    background-color: lightpink;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.Hobbies {
+    border: 3px double red;
+    color: green;
+    background-color: lightpink;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+div {
+    width: 1000px;
+    height: 900px;
+    border: 3px solid gray;
+}
+
+p1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 3px red;
+    font-size: 22px;
+    color: brown;
+    background-color: blue;
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+}
+
+ul {
+    border: 3px brown;
+    font-size: 20px;
+    background-color: blue;
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+}
+
+ol {
+    border: 3px brown;
+    font-size: 20px;
+    background-color: blue;
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+}
+
+img {
+    border: 30px solid skyblue;
+    width: 150px;
+    height: 125px;
+    margin-left: 400px;
+    display: inline-block;
+}
+
+span {
+    background-color: skyblue;
+}
