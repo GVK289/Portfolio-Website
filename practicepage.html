@@ -13,57 +13,113 @@
         <script src="bootstrap/popper.min.js"></script>
         <script src="bootstrap/bootstrap.min.js"></script>
         <style>
-            /* img {
-                display: block;
+            img {
+                /*   display: block;
                 margin-left: auto;
-                margin-right: auto;
+                margin-right: auto;*/
+                border: 5px double darkgrey;
+                background-color: blue;
+                border-radius: 20px;
+                margin-top: -40px;
+
             }
 
-            h1 {
+
+
+            p1 {
+                display: block;
+                font-size: 30px;
                 text-align: center;
+                border: 5px double red;
+                background-color: grey;
+                object-fit: contain;
+                margin-top: 5px;
+                margin-bottom: 15px;
             }
 
             p {
+
                 text-align: center;
-            }*/
+                color: blue;
+                border: 5px solid white;
+                background-color: yellow;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            html {
+                background-color: teal;
+                border: none;
+                padding: 0px;
+            }
+
+            * {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                text-align: center;
+                /*    border: 5px dotted white; */
+                /*    padding: 10px;
+                background-color: skyblue; */
+            }
 
             body {
-                background: url("static/ibhubs_logo.png") no-repeat center fixed;
-                background-size: contain;
+                /* background: url("static/ibhubs_logo.png") no-repeat center fixed;
+                background-size: contain;*/
+                background-color: red;
+                border: 5px solid;
+                padding: 10px;
+                margin-top: 0px;
 
             }
 
-            /*  * {
-                margin-top: 5px;
-                text-align: center;
-            }*/
+            .overflow {
+                overflow: scroll;
+            }
+
 
             .col-4 {
-                margin-top: 5px;
+                border: 5px solid black;
+                background-color: burlywood;
+                border-radius: 20px;
                 text-align: center;
             }
+
+            /*            .container {
+                border: 5px solid black;
+                padding: 25px;
+                background-color: silver;
+            }*/
 
             ul {
                 list-style-type: none;
-                padding-left: 0px;
+                padding: 10px;
+
+                padding-right: 10px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                /*    border: 5px solid black; */
+                background-color: green;
             }
 
-            /* li {
-                overflow: auto;
-                text-align: center;
-            }*/
+
+
+            li {
+                overflow: visible;
+                /*       text-align:center;
+*/
+            }
         </style>
     </head>
 
     <body>
         <div class="container">
             <!--<div class="row">-->
-            <ul class="row">
+            <ul class="row row-logo">
 
                 <!-- <div class="col-4 ">-->
                 <li class="col-4">
                     <img src="static/Skills/C Language Icon/css.png" alt="C-Language">
-                    <h1>C</h1>
+                    <p1>C</p1>
                     <p>C is a programming language</p>
                     <!--    </div>-->
                 </li>
@@ -71,23 +127,23 @@
                 <li class="col-4">
                     <img src="static/Skills/HTML Icon/html(1).png" alt="C-Language">
 
-                    <h1>HTML</h1>
+                    <p1>HTML</p1>
                     <p>Hyper Text Markup Language (HTML) is a markup language for creating a webpage.</p>
                     <!--    </div>-->
                 </li>
                 <!--    <div class="col-4">-->
                 <li class="col-4">
                     <img class="position" src="static/Skills/CSS Icon/css(1).png" alt="C-Language">
+                    <div class="overflow">
+                        <p1>Cascading Style Sheets</p1>
+                        <p>CSS stands for Cascading Style Sheets.Its purpose is to style HTML document.</p>
+                    </div>
 
-                    <h1>CSS</h1>
-                    <p>CSS stands for Cascading Style Sheets.Its purpose is to style HTML document.</p>
                     <!--    </div>-->
                 </li>
                 <!--    </div>-->
             </ul>
 
         </div>
-
-
 
     </body>
