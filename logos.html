@@ -14,7 +14,7 @@
         <script src="bootstrap/popper.min.js"></script>
         <script src="bootstrap/bootstrap.min.js"></script>
         <style>
-            img {
+            /*  img {
                 object-fit: contain;
                 text-align: center;
                 width: 100%;
@@ -22,29 +22,45 @@
                 margin: 5px;
 
             }
-
             .logo {
-                object-fit: contain;
+            *     object-fit: contain;
                 text-align: center;
-                width: 100%;
+                width: 100%; * (optional for use)
                 padding-left: 0px;
                 margin-top: 35px;
-
             }
-
-            .logo-background {
+        *    /.logo-background {
                 background-color: grey;
+
+                border: 3px solid darkgrey;
                 background-size: contain;
+            }  *(optional for use)
+            .container {
+                background-color: skyblue;
+                margin-left: 0px;
+                border: 3px solid darkgrey;
+                background-size: contain;
+            } */
+
+            .col-12 {
+                text-align: center;
+                object-fit: contain;
             }
 
-            .container {
-                border: 5px solid grey;
+            h4 {
+
+                text-align: center;
+                object-fit: contain;
+            }
+
+            img {
+                float: right;
+
             }
         </style>
 
     </head>
-
-    <body class="logo-background">
+    <!-- <body class="logo-background">
 
         <div class="container">
             <div class="row">
@@ -85,9 +101,34 @@
                 <div class="col-2 logo"><img src="static/Hobbies/man-purple.svg"></div>
                 <div class="col-2 logo"><img src="static/Hobbies/man-purple.svg"></div>
             </div>
-
-
         </div>
+    </body> -->
+
+    <body>
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-12" style="color:DodgerBlue">
+                    <h2>Redefining the future of IoT with LoRaWAN&reg</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12" style="color:orange">
+                    <h2>The Things Conference India 2019</h2>
+                </div>
+            </div>
+            <h4>HICC, Hyderabad 18th-19th October, 2019</h4>
+            <br>
+            <h4>Share with friends</h4>
+            <br>
+            <div class="row">
+                <div class="col-4"><img src="static/Social Icons/facebook.svg"></div>
+                <div class="col-2 "><img src="static/Social Icons/linkedin.svg"></div>
+                <div class="col-2 "><img src="static/Social Icons/pinterest.svg"></div>
+                <div class="col-2 "><img src="static/Social Icons/instagram.svg"></div>
+            </div>
+        </div>
+
 
     </body>
 
