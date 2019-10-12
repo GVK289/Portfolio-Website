@@ -20,7 +20,7 @@
                 margin-top: 40px;
             }
 
-            .orange {
+            /*     .orange {
                 background-color: #ff9900;
                 margin-bottom: 0px;
                 height: 50px;
@@ -30,12 +30,14 @@
                 background-color: #09885a;
                 margin-top: 0px;
                 height: 50px;
+
             }
 
             .y {
                 background-color: #5a57bb;
                 margin-top: 0px;
                 height: 50px;
+
             }
 
             .col-3 {
@@ -44,17 +46,77 @@
                 height: 50px;
             }
 
+
+
             p {
-                color: darkgrey;
+                color: white;
                 font-size: 40px;
                 text-align: center;
-                margin-top: -30px;
+                margin-top: -60px;
                 object-fit: contain;
+            }
+
+            .p1 {
+                color: white;
+                font-size: 40px;
+                text-align: center;
+                margin-top: -35px;
+                object-fit: contain;
+            }
+
+            .a {
+                float: right;
+                margin-top: 30px;
+                margin-left: 150px;
+                height: 40px;
+            }
+
+            .b {
+                margin-top: 35px;
+                margin-left: 10px;
+            }  */
+
+            /*.......\\\\\\\ OR ////////.......*/
+
+            .col-height {
+                height: 40px;
+            }
+
+            .yellow {
+                background-color: yellow;
+                /*    background-clip: content-box;  */
+            }
+
+            .blue {
+                background-color: #4a86e8;
+
+            }
+
+            .green {
+                background-color: #09885a;
+                /*  background-clip: content-box; */
+            }
+
+            .purple {
+                background-color: #5a57bb;
+
+            }
+
+            .inner-row {
+                padding: 30px;
+                border: 2px solid black;
+                margin: 0px;
+
+            }
+
+            p {
+                margin-top: -15px;
+                border: 2px solid black;
             }
         </style>
 
     </head>
-
+    <!--
     <body>
         <div class="container">
             <div class="row">
@@ -68,11 +130,135 @@
                     </div>
                 </div>
                 <div class="col-3">
-                    <p>3</p>
+                    <p class="p1">3</p>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-1 a" style="background-color:#ff9900"></div>
+                        <div class="col-1 b">
+                            <h4>#ff9900</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-1 a" style="background-color:#4a86e8"></div>
+                        <div class="col-1 b">
+                            <h4>#4a86e8</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-1 a" style="background-color:#09885a"></div>
+                        <div class="col-1 b">
+                            <h4>#09885a</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-1 a" style="background-color:#5a57bb"></div>
+                        <div class="col-1 b">
+                            <h4>#5a57bb</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-9 orange"></div>
+                <div class="col-3"></div>
+
+                <div class="col-1 orange"></div>
+                <div class="col-7">
+                    <div class="row">
+                        <div class="col-6 x"></div>
+                        <div class="col-6 y"></div>
+                    </div>
+                </div>
+                <div class="col-1 orange"></div>
+                <div class="col-3"></div>
+
+                <div class="col-9 orange"></div>
+                <div class="col-3">
+                    <p>3</p>
+                </div>
+                <br><br>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-1 a" style="background-color:#ff9900"></div>
+                        <div class="col-1 b">
+                            <h4>#ff9900</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-1 a" style="background-color:#4a86e8"></div>
+                        <div class="col-1 b">
+                            <h4>#4a86e8</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-1 a" style="background-color:#09885a"></div>
+                        <div class="col-1 b">
+                            <h4>#09885a</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-1 a" style="background-color:#5a57bb"></div>
+                        <div class="col-1 b">
+                            <h4>#5a57bb</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>   -->
+
+    <!--    .........................\\\\\\\\\\\   OR   ///////////..................... -->
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col-12 yellow col-height"></div>
+                        <div class="col-6 green col-height"></div>
+                        <div class="col-6 purple col-height"></div>
+                    </div>
+                </div>
+                <div class="col-3 blue"></div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-9 yellow inner-row">
+                    <div class="row inner-row">
+                        <div class="col-6 green col-height inner-row ">
+                            <p>Green</p>
+                        </div>
+                        <div class="col-6 purple col-height inner-row">
+                            <p>Purple</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 blue"></div>
+            </div>
+        </div>
 
     </body>
 
