@@ -17,42 +17,34 @@
 
         <style>
             .row {
-                margin-left: 5px;
+                margin: 5px;
             }
-
-            /*  .position{
-            float:left;
-        }  */
 
             .orange {
                 background-color: orange;
-                height: 70px;
-
+                height: 150px;
             }
 
             .green {
                 background-color: green;
-                height: 70px;
-
+                height: 150px;
             }
 
             .blue {
                 background-color: blue;
-                height: 70px;
-
+                height: 150px;
             }
 
             .purple {
                 background-color: purple;
-                height: 70px;
-
+                height: 150px;
             }
         </style>
 
     </head>
 
     <body>
-        <div class="container">
+        <!--     <div class="container">
             <h2>Assignment10</h2>
             <div class="row">
                 <div class="col-6 orange order-1 col-md-4 order-md-3 col-xl-3 order-xl-4"></div>
@@ -60,8 +52,29 @@
                 <div class="col-6 purple order-3 col-md-4 order-md-4 col-xl-3 order-xl-1"></div>
                 <div class="col-6 blue order-4 col-md-4 order-md-1 col-xl-3 order-xl-2"></div>
             </div>
-        </div>
+        </div>  -->
 
+        <div class="contanier">
+            <h2>Assignment10</h2>
+            <div class="row d-md-none">
+                <div class="col-6 orange"></div>
+                <div class="col-6 green"></div>
+                <div class="col-6 purple"></div>
+                <div class="col-6 blue"></div>
+            </div>
+            <div class="row d-md-flex d-none">
+                <div class="col-4 col-md-4 blue"></div>
+                <div class="col-4 col-md-4 green"></div>
+                <div class="col-4 col-md-4 orange"></div>
+                <div class="col-4 col-md-4 purple"></div>
+            </div>
+            <div class="row d-lg-none d-none">
+                <div class="col-3 purple"></div>
+                <div class="col-3 blue"></div>
+                <div class="col-3 green"></div>
+                <div class="col-3 orange"></div>
+            </div>
+        </div>
     </body>
 
 
