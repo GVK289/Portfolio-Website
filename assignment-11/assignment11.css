@@ -1,0 +1,11 @@
+.border-2 {
+  border: 2px solid black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row {
+  margin: 50px;
+
+}
