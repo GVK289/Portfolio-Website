@@ -39,7 +39,15 @@
 
       .expsize {
 
-        width: 50%;
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+      }
+
+      .expimg1 {
+
+        width: 100%;
+        height: 70%;
         margin-top: 10px;
       }
 
@@ -63,10 +71,25 @@
       .mailsize {
         width: 60px;
         height: 50px;
+        text-align: center;
       }
 
       .color {
         background-color: lightgrey;
+      }
+
+      .position {
+        margin-top: 5px;
+        text-align: center;
+        float: right;
+      }
+
+      .rightborder {
+        border-right: 5px solid white;
+      }
+
+      .padding {
+        padding: 10px;
       }
     </style>
 
@@ -74,21 +97,29 @@
 
   <body>
 
-    <!--   <div class="container">
+    <div class="container">
 
-      <div class="row border">
+
+      <div class="row border  d-md-none">
+
         <div class="col-6 "><img class="size" src="assets/logo-gmail.png">
           <h2>Gmail</h2>
         </div>
         <div class="col-6" style=" text-align:right"><a class="btn btn-primary stretched-link ">Get Gmail</a></div>
+
       </div>
 
-      <div class="row border">
+
+      <div class="row border d-md-none">
+
         <div class="col-6 "><br>For Work</div>
         <div class="col-6" style=" text-align:right"><br><a class="btn btn-primary stretched-linl ">Sign in</a></div>
+
       </div>
 
-      <div class="row color">
+
+      <div class="row color d-md-none">
+
         <div class="col-12 center ">
           <h3><br>Get more done with Gmail</h3>
         </div>
@@ -99,9 +130,11 @@
         <div class="col-12 center ">
           <p><br><a class="btn btn-primary stretched-link ">Get Gmail</a></p>
         </div>
+
       </div>
 
-      <div class="row ">
+      <div class="row d-md-none">
+
         <div class="col-12 center ">
           <h3>Experience Gmail on any device</h3>
         </div>
@@ -112,27 +145,29 @@
           <img class="appsize " src="assets/google-playstore.png ">
           <img class="appsize " src="assets/app-store.png ">
         </div>
+
       </div>
 
-      <div class="row ">
+      <div class="row d-md-none">
         <div class="col-12 center "><img class="expimg " src="assets/experience-image-mobile-desktop.png " </div>
         </div>
       </div>
 
-      <div class="row color">
+      <div class="row color d-md-none">
+
         <div class="col-12 center ">
           <h3><br>Stay organised instantly</h3>
         </div>
         <div class="col-12 center ">
           <p>See what's new at a glance and decide what you want to read and respond to.</p>
         </div>
-        <div class="col-12 center "><img class="expsize" src="assets/stay-organised-instantly-mobile.png "></div>
-        <div class="col-12 center ">
-        </div>
+        <div class="col-12 center"><img class="expsize" src="assets/stay-organised-instantly-mobile.png "></div>
+
       </div>
 
 
-      <div class="row color">
+      <div class="row color d-md-none">
+
         <div class="col-12 center ">
           <h3><br>Never drop the ball</h3>
         </div>
@@ -140,12 +175,12 @@
           <p>Get nudges that remaind you to follow up and respond to messages, so that nothing slips through the cracks.</p>
         </div>
         <div class="col-12 center "><img class="expsize" src="assets/never-drop-the-ball-mobile.png "></div>
-        <div class="col-12 center ">
-        </div>
+
       </div>
 
 
-      <div class="row color">
+      <div class="row color d-md-none">
+
         <div class="col-12 center ">
           <h3><br>Take action right from the inbox</h3>
         </div>
@@ -153,13 +188,13 @@
           <p>View attachments, RVSP to events, snoooze messages and more without opening any emails.</p>
         </div>
         <div class="col-12 center "><img class="expsize" src="assets/take-action-mobile.png "></div>
-        <div class="col-12 center ">
-        </div>
+
       </div>
 
 
 
-      <div class="row color">
+      <div class="row color  d-md-none">
+
         <div class="col-12 center ">
           <h3><br>Avoid suspicious emails</h3>
         </div>
@@ -167,21 +202,23 @@
           <p>Gmail blocks 99.9% of dangerous emails before they reach you. If we think something seems phish-y, you'll get a warning.</p>
         </div>
         <div class="col-12 center "><img class="expsize" src="assets/avoid-suspicious-emails-mobile.png "></div>
-        <div class="col-12 center ">
-        </div>
+
       </div>
 
 
-      <div class="row ">
+      <div class="row d-md-none">
+
         <div class="col-12 center "><br><img class="mailsize" src="assets/logo-gmail.png ">
         </div>
         <div class="col-12 center ">
           <h3>Get started with Gmail</h3>
         </div>
         <div class="col-12 center "><a class="btn btn-primary stretched-link ">Get Gmail</a></div>
+
       </div>
 
-      <div class="row color">
+      <div class="row color d-md-none">
+
         <div class="col-12 " style="color:gray ">
           <h5>Google</h5>
         </div>
@@ -200,26 +237,31 @@
 
       </div>
 
-    </div>  -->
+
+      <!-- tablet -->
 
 
-    <div class="container">
 
-      <div class="row border">
-        <div class="col-6 "><img class="size" src="assets/logo-gmail.png">
+      <div class="row border d-none d-md-flex">
+
+        <div class="col-6"><img class="size" src="assets/logo-gmail.png">
           <h2>Gmail</h2>
         </div>
 
-        <div class="col-1 "><br>For Work</div>
-        <div class="col-2" style=" text-align:right"><br><a class="btn btn-primary stretched-linl ">Sign in</a></div>
-        <div class="col-3" style=" text-align:right"><a class="btn btn-primary stretched-link ">Create an account</a></div>
+        <div class="col-2 position">For Work</div>
+        <div class="col-1 position" style=" text-align:right">Sign in</div>
+        <div class="col-3 position" style=" text-align:right"><a class="btn btn-primary stretched-link ">Create an account</a></div>
+
       </div>
 
-      <div class="row color">
+
+      <div class="row color d-none d-md-flex">
 
         <div class="col-12 col-md-6 center ">
           <div class="row">
-            <h3><br>Get more done with Gmail</h3>
+            <div class="col-12 center">
+              <h3><br>Get more done with Gmail</h3>
+            </div>
             <div class="col-12 center ">
               <p>Now more secure, smarter and easier to use-helping you save time and do more with your inbox.</p>
             </div>
@@ -228,11 +270,11 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 center "><img class="expsize" src="landing-page-image-desktop.png "></div>
+        <div class="col-12 col-md-6 center "><img class="expsize" src="assets/landing-page-image-desktop.png"></div>
 
       </div>
 
-      <div class="row ">
+      <div class="row d-none d-md-flex">
 
         <div class="col-12 center ">
           <h3>Experience Gmail on any device</h3>
@@ -247,39 +289,38 @@
 
       </div>
 
-      <div class="row ">
+      <div class="row d-none d-md-flex">
 
-        <div class="col-12 center "><img class="expimg " src="assets/experience-image-mobile-desktop.png " </div>
+        <div class="col-12 center d-none d-md-flex"><img class="expimg1" src="assets/experience-image-mobile-desktop.png" </div>
         </div>
 
       </div>
 
-      <div class="row color">
+      <div class="row d-none d-md-flex">
 
-        <div class="col-12 col-md-6 center ">
-          <h3><br>Stay organised instantly</h3>
+        <div class="col-12 color rightborder col-md-6">
+          <h3 class="center"><br>Stay organised instantly</h3>
 
           <div class="col-12 center ">
             <p>See what's new at a glance and decide what you want to read and respond to.</p>
           </div>
-          <div class="col-12 center "><img class="expsize" src="assets/stay-organised-instantly-desktop.png "></div>
-          <div class="col-12 center ">
-          </div>
+          <div class="col-12"><img class="expsize" src="assets/stay-organised-instantly-desktop.png "></div>
         </div>
 
-        <div class="col-12 col-md-6 center ">
-          <h3><br>Never drop the ball</h3>
+        <div class="col-12 color col-md-6">
+          <h3 class="center"><br>Never drop the ball</h3>
 
           <div class="col-12 center ">
             <p>Get nudges that remaind you to follow up and respond to messages, so that nothing slips through the cracks.</p>
           </div>
-          <div class="col-12 center "><img class="expsize" src="assets/never-drop-the-ball-desktop.png "></div>
+          <div class="col-12"><img class="expsize" src="assets/never-drop-the-ball-desktop.png "></div>
         </div>
 
       </div>
 
-
-      <div class="row color">
+      <br>
+      <br>
+      <div class="row  d-none d-md-flex">
 
         <div class="col-12 col-md-6 center ">
           <h3><br>Take action right from the inbox</h3>
@@ -288,15 +329,15 @@
             <p>View attachments, RVSP to events, snoooze messages and more without opening any emails.</p>
           </div>
         </div>
-        <div class="col-12 col-md-6 center "><img class="expsize" src="assets/take-action-desktop.png "></div>
+        <div class="col-12 col-md-6"><img class="expsize" src="assets/take-action-desktop.png "></div>
 
       </div>
 
+      <br>
+      <br>
+      <div class="row color padding d-none d-md-flex">
 
-
-      <div class="row color">
-
-        <div class="col-12 col-md-6 center "><img class="expsize" src="assets/avoid-suspicious-emails-mobile.png "></div>
+        <div class="col-12 col-md-6"><img class="expsize" src="assets/avoid-suspicious-emails-desktop.png "></div>
         <div class="col-12 col-md-6 center ">
           <h3><br>Avoid suspicious emails</h3>
           <div class="col-12 center ">
@@ -305,35 +346,39 @@
         </div>
 
       </div>
+      <br>
+      <br>
+      <div class="row d-none d-md-flex">
 
-
-      <div class="row ">
-
-        <div class="col-12 center "><br><img class="mailsize" src="assets/logo-gmail.png ">
+        <div class="col-12 center"><img class="mailsize" src="assets/logo-gmail.png">
         </div>
-        <div class="col-12 center ">
+        <div class="col-12 center">
           <h3>Get started with Gmail</h3>
         </div>
-        <div class="col-12 center "><a class="btn btn-primary stretched-link ">Create an account</a></div>
+        <div class="col-12 center"><a class="btn btn-primary stretched-link">Create an account</a></div>
 
       </div>
+      <br>
+      <br>
 
-      <div class="row color">
+      <div class="row color d-none d-md-flex">
+
         <div class="col-12 " style="color:gray ">
           <h5>Google</h5>
         </div>
 
-        <div class="col-3 ">Privacy</div>
-        <div class="col-3 ">Terms</div>
-        <div class="col-3 ">About Google</div>
-        <div class="col-3 ">Google Products</div>
-        <div class="col-3 ">Our policy</div>
+        <div class="col-1 ">Privacy</div>
+        <div class="col-1 ">Terms</div>
+        <div class="col-2 ">About Google</div>
+        <div class="col-2 ">Google Products</div>
+        <div class="col-2 ">Our policy</div>
 
 
-        <div class="col-3 ">&#173;Help</div>
-        <div class="col-4 ">Engkish&#40;India&#41;</div>
-        <div class="col-1 "><button class="btn btn-secondary dropdown-toggle " type="button " id="dropdownMenuButton " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
-	</button></div>
+        <div class="col-2 "><img src="assets/question-mark.png">Help</div>
+        <div class="col-2">Engkish&#40;India&#41;
+          <button class="btn btn-secondary dropdown-toggle " type="button " id="dropdownMenuButton " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
+	</button>
+        </div>
 
       </div>
 
