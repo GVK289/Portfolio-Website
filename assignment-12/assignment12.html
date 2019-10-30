@@ -8,94 +8,44 @@
     <script src="../bootstrap/jquery.min.js"></script>
     <script src="../bootstrap/popper.min.js"></script>
     <script src="../bootstrap/bootstrap.min.js"></script>
-    <!--  <link rel="stylesheet" type="text/css" href="assignment12.css" /> -->
+    <link rel="stylesheet" type="text/css" href="assignment12.css" />
 
-    <style>
-      .container {
-        padding: 10px;
+    <!--  <style type="text/css">
+      .row {
+        padding-top: 15px;
       }
 
-      h2 {
-        display: inline-block;
-        font-size: 40px;
-
-        color: gray;
-      }
-
-      .center {
-        text-align: center;
-      }
-
-      .size {
+      .gmail-logo {
         width: 60px;
-        height: 50px;
-        margin-top: -15px;
+        margin-right: 10px;
       }
 
-      .appsize {
 
-        width: 150px;
+
+      .right-col {
+
+        text-align: right;
       }
 
-      .expsize {
-
-        width: 100%;
-        height: auto;
-        margin-top: 10px;
+      .logo-container {
+        border-bottom: 1px solid gray
       }
-
-      .expimg1 {
-
-        width: 100%;
-        height: 70%;
-        margin-top: 10px;
-      }
-
-      .expimg {
-
-        width: 100%;
-        height: auto;
-        margin-top: 10px;
-      }
-
-      .col-12 {
-        margin-top: 10px;
-      }
-
-      .border {
-
-        padding: 10px;
-        border-bottom: 1px solid gray;
-      }
-
-      .mailsize {
-        width: 60px;
-        height: 50px;
-        text-align: center;
-      }
-
-      .color {
-        background-color: lightgrey;
-      }
-
-      .position {
-        margin-top: 5px;
-        text-align: center;
-        float: right;
-      }
-
-      .rightborder {
-        border-right: 5px solid white;
-      }
-
-      .padding {
-        padding: 10px;
-      }
-    </style>
+    </style>  -->
 
   </head>
 
   <body>
+
+    <!--    <div class="container">
+      <div class="row logo-container">
+        <div class="col-6 left-col">
+          <p> <img class="gmail-logo" src="assets/logo-gmail.png" alt="gmail-logo" />Gmail</p>
+        </div>
+        <div class="col-6 right-col">
+          <a class="btn btn-primary">Get Gmail</a>
+        </div>
+      </div>
+    </div>  -->
 
     <div class="container">
 
@@ -116,7 +66,7 @@
         <div class="col-6" style=" text-align:right"><br><a class="btn btn-primary stretched-linl ">Sign in</a></div>
 
       </div>
-
+      <br>
 
       <div class="row color d-md-none">
 
@@ -230,7 +180,7 @@
         <div class="col-3 ">Our policy</div>
 
 
-        <div class="col-3 ">&#173;Help</div>
+        <div class="col-3 "><img src="assets/question-mark.png">Help</div>
         <div class="col-4 ">Engkish&#40;India&#41;</div>
         <div class="col-1 "><button class="btn btn-secondary dropdown-toggle " type="button " id="dropdownMenuButton " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
 	</button></div>
@@ -244,13 +194,16 @@
 
       <div class="row border d-none d-md-flex">
 
-        <div class="col-6"><img class="size" src="assets/logo-gmail.png">
+        <div class="col-7"><img class="size" src="assets/logo-gmail.png">
           <h2>Gmail</h2>
         </div>
-
-        <div class="col-2 position">For Work</div>
-        <div class="col-1 position" style=" text-align:right">Sign in</div>
-        <div class="col-3 position" style=" text-align:right"><a class="btn btn-primary stretched-link ">Create an account</a></div>
+        <div class="col-5">
+          <div class="row">
+            <div class="col-3 position">For Work</div>
+            <div class="col-3 position" style=" text-align:right"><a class="btn btn-primary stretched-link ">sign in</a></div>
+            <div class="col-6 pos\ition" style=" text-align:right"><a class="btn btn-primary stretched-link ">Create an account</a></div>
+          </div>
+        </div>
 
       </div>
 
@@ -374,7 +327,7 @@
         <div class="col-2 ">Our policy</div>
 
 
-        <div class="col-2 "><img src="assets/question-mark.png">Help</div>
+        <div class="col-2"><img src="assets/question-mark.png">Help</div>
         <div class="col-2">Engkish&#40;India&#41;
           <button class="btn btn-secondary dropdown-toggle " type="button " id="dropdownMenuButton " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
 	</button>

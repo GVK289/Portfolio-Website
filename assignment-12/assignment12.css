@@ -1,0 +1,81 @@
+   .container {
+      padding: 10px;
+   }
+
+   h2 {
+      display: inline-block;
+      font-size: 40px;
+
+      color: grey;
+   }
+
+   .center {
+      text-align: center;
+   }
+
+   .size {
+      width: 60px;
+      height: 50px;
+      margin-top: -15px;
+   }
+
+   .appsize {
+
+      width: 150px;
+   }
+
+   .expsize {
+
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+   }
+
+   .expimg1 {
+
+      width: 100%;
+      height: 70%;
+      margin-top: 10px;
+   }
+
+   .expimg {
+
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+   }
+
+   .col-12 {
+      margin-top: 10px;
+   }
+
+   .border {
+
+      padding: 10px;
+      border-bottom: 1px solid gray;
+   }
+
+   .mailsize {
+      width: 60px;
+      height: 50px;
+      text-align: center;
+   }
+
+   .color {
+      background-color: lightgrey;
+   }
+
+   .position {
+      /*  margin-top: 5px; */
+      text-align: center;
+
+   }
+
+   .rightborder {
+      border-right: 5px solid white;
+   }
+
+   .padding {
+      padding: 10px;
+   }
+   
