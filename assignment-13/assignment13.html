@@ -1,15 +1,353 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
     <script src="../bootstrap/jquery.min.js"></script>
     <script src="../bootstrap/popper.min.js"></script>
     <script src="../bootstrap/bootstrap.min.js"></script>
+
+    <style type="text/css">
+      .container {
+        margin-top: 10px;
+      }
+
+      .color {
+        background-color: white;
+        border: 1px solid gray;
+        padding: 10px;
+      }
+
+      .gray {
+        background-color: lightgray;
+        padding: 20px;
+        border: 1px solid gray;
+      }
+
+      .padding {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .bar1,
+      .bar2,
+      .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin-bottom: 6px;
+        text-align: right;
+      }
+
+      .position {
+
+        text-align: right;
+      }
+
+      .blue {
+        border-bottom: 2px solid blue;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .size {
+        width: 55px;
+        height: 45px;
+        margin-bottom: 30px;
+      }
+
+      .ash {
+        background-color: skyblue;
+        padding: 20px;
+        height: 50%;
+      }
+
+      .bottom-line {
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
+        margin-bottom: 10px;
+      }
+
+      .logo {
+        width: 65px;
+        height: 65px;
+      }
+
+      .m {
+        background-color: #e6f7ff;
+        margin-left: 8px;
+        margin-bottom: 5px;
+
+      }
+    </style>
+
   </head>
-  <body></body>
+
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12 color">
+          <div class="row">
+            <div class="col-7"><img src="assets/github-logo.svg" /></div>
+            <div class="col-3" style="text-align:right"><a class="btn btn-primary stretched-link">Sign up</a></div>
+            <div class="col-2 position">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 center">
+          Explore
+        </div>
+        <div class="col-12 center">
+
+          <span class="blue">Topics</span> &nbsp; Trending &nbsp; Collections &nbsp; Events
+        </div>
+        <div class="col-12 gray center">
+          <h2>Topics</h2>
+          <p>Browse popular topics on GitHub.</p>
+        </div>
+      </div>
+      <br>
+
+      <div class="row gray padding center">
+        <div class="col-12"><img class="size" src="assets/opengl.png">
+          <h5>OpenGL</h5>
+          <p>OpenGL is a software interface that allows a programmer to communicate with graphics hardware.</p>
+        </div>
+      </div>
+      <br>
+
+      <div class="row gray padding center">
+        <div class="col-12"><img class="size" src="assets/flask.png">
+          <h5>Flask</h5>
+          <p>Flask is a web framework for Python based on the Werkzeug tookit.</p>
+        </div>
+      </div>
+      <br>
+
+      <div class="row gray padding center">
+        <div class="col-12"><img class="size" src="assets/gradle.png">
+          <h5>Gradle</h5>
+          <p>Gradle is an open-source build tool that helps teams build, automate and deliver better software, faster.</p>
+        </div>
+      </div>
+      <br>
+
+      <h3>All featured topics</h3>
+      <br>
+      <div class="row">
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2 ash center">&#35;</div>
+            <div class="col-10">
+              <h3>3D</h3>
+              <p>3D modelling is the process of virtually developing the surface of a 3D object.</p>
+              <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2 ash center">&#35;</div>
+            <div class="col-10">
+              <h3>Ajax</h3>
+              <p>Ajax is a technique for creating interactive web applications.</p>
+              <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2 ash center">&#35;</div>
+            <div class="col-10">
+              <h3>Algorithm</h3>
+              <p>Algorithm are self-contained sequences that carry framework for PHP.</p>
+              <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2"><img class="logo" src="assets/amphp.png"></div>
+            <div class="col-10">
+              <h3>Amp</h3>
+              <p>Amp is a non-blocking concurrency framework for PHP.</p>
+              <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2"><img class="logo" src="assets/android.png"></div>
+            <div class="col-10">
+              <h3>Android</h3>
+              <p>Android is an operating system built by Google designed for mobile devices.</p>
+              <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2"><img class="logo" src="assets/angular.png"></div>
+            <div class="col-10">
+              <h3>Angular</h3>
+              <p>Angular is an open source web application platform.</p>
+              <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2"><img class="logo" src="assets/ansible.png"></div>
+            <div class="col-10">
+              <h3>Ansible</h3>
+              <p>Ansible is a simple and powerful automation engine.</p>
+              <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2 ash center">&#35;</div>
+            <div class="col-10">
+              <h3>API</h3>
+              <p>An API(Application Programming Interface) is a collection of protocols and subroutines for building software.</p>
+              <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2"><img class="logo" src="assets/arduino.png"></div>
+            <div class="col-10">
+              <h3>Ardunio</h3>
+              <p>Ardunio is an open source hardware and software company and maker community.</p>
+              <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2"><img class="logo" src="assets/aspnet.png"></div>
+            <div class="col-10">
+              <h3>ASP.NET</h3>
+              <p>ASP.NET is a web framework for building modern web apps and services.</p>
+              <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2"><img class="logo" src="assets/atom.png"></div>
+            <div class="col-10">
+              <h3>Atom</h3>
+              <p>Atom is aopen source text editor built with web technologies.</p>
+              <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2"><img class="logo" src="assets/awesome.png"></div>
+            <div class="col-10">
+              <h3>Awesome Lists</h3>
+              <p>An awesome list is a list of awesome things curated by the community.</p>
+              <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2"><img class="logo" src="assets/aws.png"></div>
+            <div class="col-10">
+              <h3>Amazon Web Services</h3>
+              <p>Amazon Web Services provide on-demand cloud computing platforms on a subscription basis.</p>
+              <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2"><img class="logo" src="assets/azure.png"></div>
+            <div class="col-10">
+              <h3>Azure</h3>
+              <p>Azure is a cloud computing service created by Microsoft.</p>
+              <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 bottom-line">
+          <div class="row">
+            <div class="col-2 ash center">&#35;</div>
+            <div class="col-10">
+              <h3>Mobile</h3>
+              <p>Mobile apps, mobile OS, mobile databases & mobile testing frameworks.</p>
+              <a class="btn btn-white btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <button type="button" class="btn btn-light btn-outline-dark btn-lg btn-block" style="color:blue">Load more...</button>
+      <br>
+      <div class="row">
+        <div class="col-12">
+          <h3>Popular topics</h3>
+        </div>
+
+        <div class="col-12">
+          <div class="row">
+            <a class="btn btn-light m" style="color:blue">react</a>
+            <a class="btn btn-light m" style="color:blue">javascript</a>
+            <a class="btn btn-light m" style="color:blue">css</a>
+            <a class="btn btn-light m" style="color:blue">python</a>
+            <a class="btn btn-light m" style="color:blue">html</a>
+            <a class="btn btn-light m" style="color:blue">ecommerce</a>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="row">
+            <a class="btn btn-light m" style="color:blue">python3</a>
+            <a class="btn btn-light m" style="color:blue">ecommerce-platform</a>
+            <a class="btn btn-light m" style="color:blue">nci-itcr</a>
+            <a class="btn btn-light m" style="color:blue">solidus-extensions</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+  </body>
+
 </html>

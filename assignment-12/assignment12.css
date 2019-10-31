@@ -78,4 +78,21 @@
    .padding {
       padding: 10px;
    }
+
+   .block {
+      display: inline-block;
+      padding: 0px;
+   }
+
+   .padding {
+      padding: 10px;
+   }
+
+   a:hover {
+      background-color: gray;
+   }
+
+   button:hover {
+      background-color: gray;
+   }
    
