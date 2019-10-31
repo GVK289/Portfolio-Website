@@ -66,9 +66,8 @@
    }
 
    .position {
-      /*  margin-top: 5px; */
-      text-align: center;
-
+      margin-top: 5px;
+      /*   style=" text-align:right" */
    }
 
    .rightborder {
@@ -84,8 +83,9 @@
       padding: 0px;
    }
 
-   .padding {
-      padding: 10px;
+   .pad {
+      margin-top: 5px;
+
    }
 
    a:hover {
