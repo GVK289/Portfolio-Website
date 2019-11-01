@@ -85,7 +85,11 @@
 
    .pad {
       margin-top: 5px;
+   }
 
+   .padmd {
+      margin-top: 5px;
+      margin-right: 10px;
    }
 
    a:hover {
@@ -94,5 +98,12 @@
 
    button:hover {
       background-color: gray;
+   }
+
+   .margin {
+      display: inline-block;
+      margin-left: 7px;
+      background-color: red;
+      font-size: 12px;
    }
    
