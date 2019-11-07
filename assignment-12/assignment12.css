@@ -56,7 +56,7 @@
    }
 
    .mailsize {
-      width: 60px;
+      width: 70px;
       height: 50px;
       text-align: center;
    }
@@ -71,7 +71,11 @@
    }
 
    .rightborder {
-      border-right: 5px solid white;
+      border-right: 10px solid white;
+   }
+
+   .leftborder {
+      border-left: 10px solid white;
    }
 
    .padding {
@@ -110,4 +114,14 @@
    a {
       color: #3c3c3c;
    }
+
+   /*   .right-item {
+      display: inline-block;
+      width: 45%;
+   }
+
+   .left-item {
+      display: inline-block;
+      width: 45%;
+   }  */
    
