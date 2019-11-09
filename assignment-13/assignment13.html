@@ -30,9 +30,13 @@
         border: 1px solid gray;
       }
 
+      .margin-block {
+        margin: 10px;
+      }
+
       .margin {
-        margin-left: 20px;
-        margin-right: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
       }
 
 
@@ -107,8 +111,8 @@
       <div class="row row-black">
         <div class="col-12">
           <nav class="navbar  navbar-dark">
-            <div class="col-6"><img src="assets/github-logo.svg" class="circle" /></div>
-            <div class="col-3 position"><a class="btn btn-gray black">Sign up</a></div>
+            <div class="col-7"><img src="assets/github-logo.svg" class="circle" /></div>
+            <div class="col-2 position"><a class="btn btn-gray black">Sign up</a></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -142,25 +146,40 @@
       <br>
 
       <div class="row center">
-        <div class="col-12 col-md-3 gray margin"><img class="size" src="assets/opengl.png">
+        <div class="col-12 d-md-none gray margin-block"><img class="size" src="assets/opengl.png">
           <h5>OpenGL</h5>
           <p>OpenGL is a software interface that allows a programmer to communicate with graphics hardware.</p>
         </div>
 
-        <br>
-
-        <div class="col-12 col-md-3 gray margin"><img class="size" src="assets/flask.png">
+        <div class="col-12 d-md-none gray margin-block"><img class="size" src="assets/flask.png">
           <h5>Flask</h5>
           <p>Flask is a web framework for Python based on the Werkzeug tookit.</p>
         </div>
 
-        <br>
 
-        <div class="col-12 col-md-3 gray margin"><img class="size" src="assets/gradle.png">
+        <div class="col-12 d-md-none gray margin-block"><img class="size" src="assets/gradle.png">
           <h5>Gradle</h5>
           <p>Gradle is an open-source build tool that helps teams build, automate and deliver better software, faster.</p>
         </div>
       </div>
+
+      <div class="row center">
+        <div class="col-12 d-none d-md-block col-md-3 margin gray"><img class="size" src="assets/opengl.png">
+          <h5>OpenGL</h5>
+          <p>OpenGL is a software interface that allows a programmer to communicate with graphics hardware.</p>
+        </div>
+
+        <div class="col-12 d-none d-md-block col-md-3 margin gray"><img class="size" src="assets/flask.png">
+          <h5>Flask</h5>
+          <p>Flask is a web framework for Python based on the Werkzeug tookit.</p>
+        </div>
+
+        <div class="col-12 d-none d-md-block col-md-3 margin gray"><img class="size" src="assets/gradle.png">
+          <h5>Gradle</h5>
+          <p>Gradle is an open-source build tool that helps teams build, automate and deliver better software, faster.</p>
+        </div>
+      </div>
+
 
       <br>
 
@@ -173,7 +192,7 @@
         <div class="col-12 col-md-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1 ash center">&#35;</div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>3D</h3>
               <p>3D modelling is the process of virtually developing the surface of a 3D object.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -185,7 +204,7 @@
         <div class="col-12 col-md-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1 ash center">&#35;</div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>Ajax</h3>
               <p>Ajax is a technique for creating interactive web applications.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -198,7 +217,7 @@
         <div class="col-12 col-md-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1 ash center">&#35;</div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>Algorithm</h3>
               <p>Algorithm are self-contained sequences that carry framework for PHP.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -211,7 +230,7 @@
         <div class="col-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1"><img class="logo" src="assets/amphp.png"></div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>Amp</h3>
               <p>Amp is a non-blocking concurrency framework for PHP.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -224,7 +243,7 @@
         <div class="col-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1"><img class="logo" src="assets/android.png"></div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>Android</h3>
               <p>Android is an operating system built by Google designed for mobile devices.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -237,7 +256,7 @@
         <div class="col-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1"><img class="logo" src="assets/angular.png"></div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>Angular</h3>
               <p>Angular is an open source web application platform.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -250,7 +269,7 @@
         <div class="col-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1"><img class="logo" src="assets/ansible.png"></div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>Ansible</h3>
               <p>Ansible is a simple and powerful automation engine.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -263,7 +282,7 @@
         <div class="col-12 col-md-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1 ash center">&#35;</div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>API</h3>
               <p>An API(Application Programming Interface) is a collection of protocols and subroutines for building software.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -276,7 +295,7 @@
         <div class="col-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1"><img class="logo" src="assets/arduino.png"></div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>Ardunio</h3>
               <p>Ardunio is an open source hardware and software company and maker community.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -289,7 +308,7 @@
         <div class="col-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1"><img class="logo" src="assets/aspnet.png"></div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>ASP.NET</h3>
               <p>ASP.NET is a web framework for building modern web apps and services.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -302,7 +321,7 @@
         <div class="col-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1"><img class="logo" src="assets/atom.png"></div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>Atom</h3>
               <p>Atom is aopen source text editor built with web technologies.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -315,7 +334,7 @@
         <div class="col-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1"><img class="logo" src="assets/awesome.png"></div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>Awesome Lists</h3>
               <p>An awesome list is a list of awesome things curated by the community.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -328,7 +347,7 @@
         <div class="col-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1"><img class="logo" src="assets/aws.png"></div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>Amazon Web Services</h3>
               <p>Amazon Web Services provide on-demand cloud computing platforms on a subscription basis.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -341,7 +360,7 @@
         <div class="col-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1"><img class="logo" src="assets/azure.png"></div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>Azure</h3>
               <p>Azure is a cloud computing service created by Microsoft.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -354,7 +373,7 @@
         <div class="col-12 col-md-12 bottom-line">
           <div class="row">
             <div class="col-2 col-md-1 ash center">&#35;</div>
-            <div class="col-10 col-md-9">
+            <div class="col-10 col-md-10">
               <h3>Mobile</h3>
               <p>Mobile apps, mobile OS, mobile databases & mobile testing frameworks.</p>
               <div class="d-md-none"> <a class="btn btn-light btn-outline-dark"><img src="assets/star.svg" />&nbsp;Star</a></div>
@@ -373,7 +392,7 @@
           <h3>Popular topics</h3>
         </div>
 
-        <div class="col-12">
+        <div class="col-12 col-md-5">
           <div class="row">
             <a class="btn btn-light m" style="color:blue">react</a>
             <a class="btn btn-light m" style="color:blue">javascript</a>
@@ -381,11 +400,7 @@
             <a class="btn btn-light m" style="color:blue">python</a>
             <a class="btn btn-light m" style="color:blue">html</a>
             <a class="btn btn-light m" style="color:blue">ecommerce</a>
-          </div>
-        </div>
 
-        <div class="col-12">
-          <div class="row">
             <a class="btn btn-light m" style="color:blue">python3</a>
             <a class="btn btn-light m" style="color:blue">ecommerce-platform</a>
             <a class="btn btn-light m" style="color:blue">nci-itcr</a>
