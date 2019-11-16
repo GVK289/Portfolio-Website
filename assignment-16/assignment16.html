@@ -31,7 +31,13 @@
       }
 
       @media (max-width:576px) {
-
+        h1 {
+          padding-bottom: 10px;
+          border-bottom: 1px solid gray;
+        }
+        .none2 {
+          display: none;
+        }
         .small {
           margin: 20px;
         }
@@ -48,8 +54,11 @@
           padding-bottom: 10px;
           border-bottom: 1px solid gray;
         }
-        .none1,
         .none {
+          display: none;
+        }
+        .none1,
+        .none2 {
           display: inline-block;
           width: 50%;
           padding: 10px;
@@ -65,12 +74,16 @@
   <body>
     <div class="small">
       <h1>OUR APPROACH</h1>
+      <div class="none2">
+        <h5>Creating Workforce for 4.0</h5>
+        <p>iB Hubs commits to create a powerful workforce with all the necessary tools and techniques to thrive in this new wave of transformation.</p>
+      </div>
       <div class="none">
-        <h2>Building Global Startups</h2>
+        <h5>Building Global Startups</h5>
         <p>We provide end to end assistance to startups and develop them into global companies.We give equal importance to Purpose Driven Social Enterprises, Profit Driven Enterprises and Non-Profits.</p>
       </div>
       <div class="none1">
-        <h2>Developing World-Class Products</h2>
+        <h5>Developing World-Class Products</h5>
         <p>iB Hubs' cutting-edge application R&D in 4.0 technologies combined with a strong entrepreneurial focus will able the development of world-class products and services that impact billions of lives.</p>
       </div>
     </div>
