@@ -17,12 +17,12 @@
         /*  text-align: center;  */
         margin-top: 20%;
         margin-bottom: 20%;
-        padding: 10px;
         box-shadow: 0 2px 6px 0 gray;
         background-color: white;
       }
 
       body {
+        font-size: 0px;
         background-color: lightgray;
       }
 
@@ -41,11 +41,21 @@
       }
 
       @media screen and (min-width:768px) {
-        .none {
-          border: 1px solid gray;
-          background-color: gray;
-
+        .small {
+          text-align: center;
         }
+        h1 {
+          text-align: left;
+          padding-bottom: 10px;
+          border-bottom: 1px solid gray;
+        }
+        .none1,
+        .none {
+          display: inline-block;
+          width: 50%;
+          height: 100%;
+        }
+
       }
     </style>
 
@@ -55,8 +65,10 @@
   <body>
     <div class="small">
       <h1>OUR APPROACH</h1>
-      <h2>Creating Workforce for 4.0</h2>
-      <p>iB Hubs commits to create a powerful workforce with all the necessary tools and techniques to thrive in this new wave of transformation.</p>
+      <div class="none1">
+        <h2>Creating Workforce for 4.0</h2>
+        <p>iB Hubs commits to create a powerful workforce with all the necessary tools and techniques to thrive in this new wave of transformation.</p>
+      </div>
       <div class="none">
         <h2>Building Global Startups</h2>
         <p>We provide end to end assistance to startups and develop them into global companies.We give equal importance to Purpose Driven Social Enterprises, Profit Driven Enterprises and Non-Profits.</p>
