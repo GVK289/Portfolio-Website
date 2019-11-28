@@ -15,6 +15,10 @@
         <script src="bootstrap/bootstrap.min.js"></script>
 
         <style>
+            body {
+                background-color: gold;
+            }
+
             .center {
                 text-align: center;
             }
@@ -27,7 +31,7 @@
 
             .resize {
                 width: 100%;
-
+                border-radius: 100px;
             }
 
             .margin-top {
@@ -100,6 +104,10 @@
                 padding-top: 20px;
             }
 
+            .letter {
+                color: rgb(0, 158, 191);
+            }
+
             .Hobbies {
                 width: 50%;
                 margin-right: 0px;
@@ -108,13 +116,17 @@
             .bg-skyblue {
                 background-color: skyblue;
             }
+
+            .bg-black {
+                background-color: black;
+            }
         </style>
     </head>
 
     <body>
 
-        <div class="container margin-top">
-            <div class="row header-color center">
+        <div class="container bg-black margin-top">
+            <div class="row header-color bg-black center">
                 <div class="col-12">
                     <div class="row padding">
                         <div class="col-10 col-md-7">
@@ -124,22 +136,22 @@
       <span class="navbar-toggler-icon"></span>
     </button></nav>
 
-                        <div class="col-2 col-md-1 d-none d-md-flex"> <a class="black" href="#">Work</a></div>
-                        <div class="col-2 col-md-1 d-none d-md-flex"> <a class="black" href="#">About</a></div>
-                        <div class="col-2 col-md-1 d-none d-md-flex"> <a class="black" href="#">Contact</a></div>
+                        <div class="col-2 col-md-1 letter d-none d-md-flex"> <a class="black" href="#">Work</a></div>
+                        <div class="col-2 letter col-md-1 d-none d-md-flex"> <a class="black" href="#">About</a></div>
+                        <div class="col-2 letter col-md-1 d-none d-md-flex"> <a class="black" href="#">Contact</a></div>
 
                     </div>
                 </div>
             </div>
-            <div class="row header-color center">
+            <div class="row bg-black header-color center">
                 <div class="col-6 header-quote">
                     <h5>Be <span class="white">Motivated</span> to Yourself in order to <span class="white">Achieve</span> the <span class="white">Great Things</span>.</h5>
                 </div>
 
                 <div class="col-6"><img src="GVK_Photos/GVK Proff.jpg" alt="GVK PIC" class="resize" /></div>
             </div>
-
-            <div class="row margin-top">
+            <!-- ABOUT ME  -->
+            <div class="row padding letter margin-top">
                 <div class="col-12">
                     <h4>About <span class="border-color">Me</span></h4>
                 </div>
@@ -160,7 +172,7 @@
             </div>
 
             <!-- SKILLS  -->
-            <div class="row  margin-top">
+            <div class="row letter margin-top padding">
                 <div class="col-12 ">
                     <h4>Skills</h4>
                 </div>
@@ -188,7 +200,7 @@
             </div>
 
             <!-- MY PROJECTS -->
-            <div class="row padding">
+            <div class="row letter padding">
                 <div class="col-12">
                     <h3><span style="font-weight:normal">My </span>Proje<span class="border-color">cts</span></h3>
                 </div>
@@ -278,8 +290,8 @@
                 </div>
 
             </div>
-
-            <div class="row padding">
+            <!-- HOBBIES  -->
+            <div class="row letter padding">
                 <div class="col-12 padding">
                     <h3><span style="font-weight:normal">My</span> Hobb<span class="border-color">ies</span></h3>
                 </div>
@@ -307,7 +319,9 @@
 
                 </div>
             </div>
-            <div class="row padding">
+
+            <!-- CONTACT DETAILS -->
+            <div class="row bg-black skyblue padding">
                 <div class="col-12 padding">
                     <h5>Con<span class="border-color">tact</span></h5>
                 </div>
@@ -332,19 +346,19 @@
                 <h3 class="padding">Follow Me On</h3>
 
                 <div class="row">
-                    <div class="col-4"><img src="static/Social Icons/facebook.svg"></div>
-                    <div class="col-2 "><img src="static/Social Icons/linkedin.svg"></div>
-                    <div class="col-2 "><img src="static/Social Icons/pinterest.svg"></div>
-                    <div class="col-2 "><img src="static/Social Icons/instagram.svg"></div>
+                    <div class="col-3"><img src="static/Social Icons/facebook.svg"></div>
+                    <div class="col-3 "><img src="static/Social Icons/linkedin.svg"></div>
+                    <div class="col-3 "><img src="static/Social Icons/pinterest.svg"></div>
+                    <div class="col-3 "><img src="static/Social Icons/instagram.svg"></div>
                 </div>
             </div>
 
             <div class="row bg-skyblue padding">
-                <div class="col-4">
+                <div class="col-4 center">
                     <a class="button" href="#">Work</a>
                 </div>
-                <div class="col-4"> <a class="button" href="#">About</a></div>
-                <div class="col-4"><a class="button" href="#">Contact</a></div>
+                <div class="col-4 center"> <a class="button" href="#">About</a></div>
+                <div class="col-4 center"><a class="button" href="#">Contact</a></div>
 
 
             </div>
