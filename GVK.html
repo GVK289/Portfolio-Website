@@ -120,6 +120,17 @@
             .bg-black {
                 background-color: black;
             }
+
+            .social_icons {
+
+                border-radius: 200px;
+                width: 25%;
+
+            }
+
+            h3 {
+                color: tan;
+            }
         </style>
     </head>
 
@@ -129,21 +140,24 @@
             <div class="row header-color bg-black center">
                 <div class="col-12">
                     <div class="row padding">
-                        <div class="col-10 col-md-7">
+                        <div class="col-10 d-block d-md-none margin-top">
                             <span1>GANDHAM VINAY KUMAR &nbsp;<span class="white">/</span>&nbsp; 9642568135</span1>
                         </div>
-                        <nav class="col-1 navbar-dark "><button class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse">
+                        <div class="col-10 col-md-7 d-none d-md-block">
+                            <span1>GANDHAM VINAY KUMAR &nbsp;<span class="white">/</span>&nbsp; 9642568135</span1>
+                        </div>
+                        <nav class="col-1 navbar-dark"><button class="navbar-toggler bg-black d-block d-md-none" type="button" data-toggle="collapse">
       <span class="navbar-toggler-icon"></span>
     </button></nav>
 
-                        <div class="col-2 col-md-1 letter d-none d-md-flex"> <a class="black" href="#">Work</a></div>
-                        <div class="col-2 letter col-md-1 d-none d-md-flex"> <a class="black" href="#">About</a></div>
-                        <div class="col-2 letter col-md-1 d-none d-md-flex"> <a class="black" href="#">Contact</a></div>
+                        <div class="col-2 col-md-1 d-none d-md-block"> <a class="letter" href="#">Work</a></div>
+                        <div class="col-2 col-md-1 d-none d-md-block"> <a class="letter" href="#">About</a></div>
+                        <div class="col-2 col-md-1 d-none d-md-block"> <a class="letter" href="#">Contact</a></div>
 
                     </div>
                 </div>
             </div>
-            <div class="row bg-black header-color center">
+            <div class="row bg-black header-color center margin-top">
                 <div class="col-6 header-quote">
                     <h5>Be <span class="white">Motivated</span> to Yourself in order to <span class="white">Achieve</span> the <span class="white">Great Things</span>.</h5>
                 </div>
@@ -153,7 +167,7 @@
             <!-- ABOUT ME  -->
             <div class="row padding letter margin-top">
                 <div class="col-12">
-                    <h4>About <span class="border-color">Me</span></h4>
+                    <h3>About <span class="border-color">Me</span></h3>
                 </div>
                 <div class="col-12 center">
                     <p>I make myself motivate in a work driven environment and like to explore the new technologies accompained with old technologies for better improvement of the company as an individual as well as with team.I am flexible and can easily
@@ -173,24 +187,24 @@
 
             <!-- SKILLS  -->
             <div class="row letter margin-top padding">
-                <div class="col-12 ">
+                <div class="col-12 d-block col-md-2">
                     <h4>Skills</h4>
                 </div>
-                <div class="col-6 center">
+                <div class="col-6 col-md-3 d-block center">
                     <div class="row">
                         <img src="static/Skills/HTML Icon/html(1).png" alt="HTML-Language" class="margin-left" />
                         <p class="skills-margin">HTML</p>
                     </div>
 
                 </div>
-                <div class="col-6 center">
+                <div class="col-6 col-md-3 d-block center">
                     <div class="row">
                         <img class="position" src="static/Skills/CSS Icon/css(1).png" alt="CSS-Language" class="margin-left" />
                         <p class="skills-margin">CSS</p>
                     </div>
 
                 </div>
-                <div class="col-6 center">
+                <div class="col-6 col-md-4 d-block center">
                     <div class="row">
                         <img src="static/Skills/C Language Icon/css.png" alt="C-Language" class="margin-left" />
                         <p class="skills-margin">C Programming</p>
@@ -201,30 +215,39 @@
 
             <!-- MY PROJECTS -->
             <div class="row letter padding">
-                <div class="col-12">
+                <div class="col-8">
                     <h3><span style="font-weight:normal">My </span>Proje<span class="border-color">cts</span></h3>
                 </div>
-                <div class="col-12 padding center">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="col-4">
+                    <a class="carousel-control-prev" href="#carouselExampleFade1" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade1" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+                </div>
+
+                <div class="col-12 center">
+                    <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="card bg-light mb-3 padding" style="max-width: 18rem;">
+                                <div class="card text-white bg-secondary">
+                                    <div class="card-header bg-primary">HYBRID BIKE</div>
                                     <div class="card-body">
-                                        <h4 class="card-title skyblue">Tittle 1</h4>
-                                        <h5 class="card-title">Sub Tittle</h5>
+                                        <h5 class="card-title">Abstract</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
             <!-- MY EDUCATION  -->
-            <div class="row padding bg-gray">
+            <div class="row padding">
                 <div class="col-8">
                     <h3><span style="font-weight:normal">My </span>Educa<span class="border-color">tion</span></h3>
                 </div>
@@ -241,53 +264,78 @@
                 <div class="col-12 center">
                     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active" style="width: 18rem;">
-                                <div class="card center">
-                                    <div class="card-img-top bg-primary padding-top">
+                            <div class="carousel-item active">
+                                <div class="card center col-md-12">
+                                    <div class="card-img-top d-block  d-md-none bg-primary padding-top">
                                         <h5>2015-2019</h5>
                                         <h5>Bachelor's Engineering
                                         </h5>
                                     </div>
-                                    <div class="card-body bg-gray">
-                                        <h5 class="card-title">Electrical And Electronics Engineering</h5>
-                                        <h6>SRKR ENNGINEERING COLLEGE,BHIMAVARAM </h6>
-                                        <p class="card-text">trjbsg.abglfalfaalisfas</p>
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4 d-none d-md-block bg-primary padding-top">
+                                            <h5>2015-2019</h5>
+                                            <h5>Bachelor's Engineering
+                                            </h5>
+                                        </div>
+                                        <div class="card-body col-md-8 bg-gray">
+                                            <h5 class="card-title">Electrical And Electronics Engineering</h5>
+                                            <h6>SRKR ENNGINEERING COLLEGE,BHIMAVARAM </h6>
+                                            <p class="card-text">trjbsg.abglfalfaalisfas</p>
+                                        </div>
                                     </div>
+
                                 </div>
 
                             </div>
                             <div class="carousel-item">
-                                <div class="card center" style="width: 18rem;">
-                                    <div class="card-img-top bg-primary padding-top">
+                                <div class="card center col-md-12">
+                                    <div class="card-img-top d-block d-md-none bg-primary padding-top">
                                         <h5>2013-2015</h5>
                                         <h5>Intermeadiate(XII)
                                         </h5>
                                     </div>
-                                    <div class="card-body bg-gray">
-                                        <h5 class="card-title">MPC</h5>
-                                        <h6>SASI JUNIOR COLLEGE,VELIVENNU</h6>
-                                        <p class="card-text">trjbsg.abglfalfaalisfas</p>
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4 d-none d-md-block bg-primary padding-top">
+                                            <h5>2013-2015</h5>
+                                            <h5>Intermeadiate(XII)
+                                            </h5>
+                                        </div>
+                                        <div class="card-body d-block col-md-8 bg-gray">
+                                            <h5 class="card-title">MPC</h5>
+                                            <h6>SASI JUNIOR COLLEGE,VELIVENNU</h6>
+                                            <p class="card-text">trjbsg.abglfalfaalisfas</p>
+                                        </div>
                                     </div>
+
                                 </div>
 
                             </div>
                             <div class="carousel-item">
-                                <div class="card center" style="width: 18rem;">
-                                    <div class="card-img-top bg-primary padding-top">
+                                <div class="card center">
+                                    <div class="card-img-top d-block d-md-none bg-primary padding-top">
                                         <h5>2012-2013</h5>
                                         <h5>Xth
                                         </h5>
                                     </div>
-                                    <div class="card-body bg-gray">
-                                        <h5 class="card-title">MPC</h5>
-                                        <h6>SASI ENGLISH MEDIUM HIGH SCHOOL,VELIVENNU</h6>
-                                        <p class="card-text">trjbsg.abglfalfaalisfas</p>
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4 d-none d-md-block bg-primary padding-top">
+                                            <h5>2012-2013</h5>
+                                            <h5>Xth
+                                            </h5>
+                                        </div>
+                                        <div class="card-body col-md-8 d-block bg-gray">
+                                            <h5 class="card-title">MPC</h5>
+                                            <h6>SASI ENGLISH MEDIUM HIGH SCHOOL,VELIVENNU</h6>
+                                            <p class="card-text">trjbsg.abglfalfaalisfas</p>
+                                        </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
 
             </div>
             <!-- HOBBIES  -->
@@ -295,70 +343,98 @@
                 <div class="col-12 padding">
                     <h3><span style="font-weight:normal">My</span> Hobb<span class="border-color">ies</span></h3>
                 </div>
-                <div class="col-12 padding">
+                <div class="col-12 col-md-6 d-block padding">
                     <div class="row">
                         <img src="static/Hobbies/hiking-purple.svg" alt="Travelling" class="Hobbies" />
-                        <h5>Travelling</h5>
+                        <h5 class="margin-top">Travelling</h5>
                     </div>
                 </div>
-                <div class="col-12 padding">
+                <div class="col-12 col-md-6 d-block padding">
                     <div class="row"> <img src="static/Hobbies/man-purple.svg" class="Hobbies" />
-                        <h5>Music</h5>
+                        <h5 class="margin-top">Music</h5>
                     </div>
 
                 </div>
-                <div class="col-12 padding">
+                <div class="col-12 col-md-6 d-block padding">
                     <div class="row"><img src="static/Hobbies/cricket-indigo.svg" alt="Cricket" class="Hobbies" />
-                        <h5>Cricket</h5>
+                        <h5 class="margin-top">Cricket</h5>
                     </div>
                 </div>
-                <div class="col-12 padding">
+                <div class="col-12 col-md-6 d-block padding">
                     <div class="row"><img src="static/Hobbies/camera-indigo.svg" alt="Photography" class="Hobbies" />
-                        <h5>Photography</h5>
+                        <h5 class="margin-top">Photography</h5>
                     </div>
 
                 </div>
             </div>
 
             <!-- CONTACT DETAILS -->
-            <div class="row bg-black skyblue padding">
-                <div class="col-12 padding">
-                    <h5>Con<span class="border-color">tact</span></h5>
-                </div>
-                <div class="col-12">
-                    <h3>GANDHAM VINAY KUMAR
-                    </h3>
-                </div>
-                <div class="col-12">
-                    <h3>
-                        +91-9642568135
-                    </h3>
-                </div>
-                <div class="col-12">
-                    <h4>
-                        g.gvk1997@gmail.com
-                    </h4>
+            <div class="row bg-black letter padding">
+                <div class="col-12  col-md-6 d-block">
+                    <div class="row">
+                        <div class="col-12 padding">
+                            <h3>Con<span class="border-color">tact</span></h3>
+                        </div>
+                        <div class="col-12">
+                            <h5>GANDHAM VINAY KUMAR
+                            </h5>
+                        </div>
+                        <div class="col-12">
+                            <h5>
+                                +91-9642568135
+                            </h5>
+                        </div>
+                        <div class="col-12">
+                            <h5>
+                                g.gvk1997@gmail.com
+                            </h5>
+                        </div>
+
+                    </div>
                 </div>
 
+                <div class="col-12 center  col-md-6 d-block skyblue padding">
+                    <h3 class="padding">Follow Me On</h3>
+
+                    <div class="row">
+                        <div class="col-3"><img src="static/Social Icons/facebook.svg"></div>
+                        <div class="col-3 "><img src="static/Social Icons/linkedin.svg"></div>
+                        <div class="col-3 "><img src="static/Social Icons/pinterest.svg"></div>
+                        <div class="col-3 "><img src="static/Social Icons/instagram.svg"></div>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-12 center skyblue padding">
-                <h3 class="padding">Follow Me On</h3>
+            <div class="row bg-skyblue padding-top">
 
-                <div class="row">
-                    <div class="col-3"><img src="static/Social Icons/facebook.svg"></div>
-                    <div class="col-3 "><img src="static/Social Icons/linkedin.svg"></div>
-                    <div class="col-3 "><img src="static/Social Icons/pinterest.svg"></div>
-                    <div class="col-3 "><img src="static/Social Icons/instagram.svg"></div>
+                <div class="col-12 col-md-12 d-none d-md-block">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="row">
+                                <div class="col-3"><img src="static/Social Icons/facebook.svg" class="social_icons" /></div>
+                                <div class="col-3 "><img src="static/Social Icons/linkedin.svg" class="social_icons" /></div>
+                                <div class="col-3 "><img src="static/Social Icons/pinterest.svg" class="social_icons" /></div>
+                                <div class="col-3 "><img src="static/Social Icons/instagram.svg" class="social_icons" /></div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-4 center">
+                                    <a class="button" href="#">Work</a>
+                                </div>
+                                <div class="col-4 center"> <a class="button" href="#">About</a></div>
+                                <div class="col-4 center"><a class="button" href="#">Contact</a></div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
 
-            <div class="row bg-skyblue padding">
-                <div class="col-4 center">
+                <div class="col-4 d-block d-md-none center">
                     <a class="button" href="#">Work</a>
                 </div>
-                <div class="col-4 center"> <a class="button" href="#">About</a></div>
-                <div class="col-4 center"><a class="button" href="#">Contact</a></div>
+                <div class="col-4 d-block d-md-none center"> <a class="button" href="#">About</a></div>
+                <div class="col-4 d-block d-md-none center"><a class="button" href="#">Contact</a></div>
 
 
             </div>
