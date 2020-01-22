@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Flexbox</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!--<link rel="stylesheet" type="text/css" href="flexbox.css" /> -->
+    <style>
+      .flexbox {
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        border-radius: 0px;
+        border: 0.5px solid grey;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+
+      .item {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-grow: 1;
+      }
+
+      .first {
+        display: flex;
+        align-items: center;
+      }
+
+      .twitterpic {
+        border-radius: 50px;
+        width: 55px;
+        margin-top: -50px;
+      }
+
+      .bold {
+        font-weight: bold;
+        margin-left: 8px;
+      }
+
+      p {
+        display: inline-block;
+        font-size: 20px;
+      }
+
+      .new {
+        font-size: 20px;
+        margin-top: -20px;
+        margin-left: 8px;
+      }
+
+      .grey {
+        flex-grow: 1;
+        color: grey;
+        font-size: 20px;
+      }
+
+      .tick {
+        width: 20px;
+        margin-left: 3px;
+        margin-right: 5px;
+      }
+
+      .drop_down {
+
+        width: 20px;
+      }
+
+      .cen {
+        background-color: pink;
+      }
+
+
+      @media (max-width:756px) {
+        .retweet,
+        .retweet1 {
+          width: 25px;
+          margin-top: 5px;
+          margin-left: 5px;
+        }
+        .tweets {
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+
+        }
+
+        .number_count {
+          text-align: center;
+          margin-left: 10px;
+          margin-right: auto;
+          color: gray;
+        }
+        .desktop {
+          display: none;
+        }
+
+      }
+
+      @media (min-width:756px) {
+        .retweet {
+          width: 25px;
+          margin-top: 5px;
+          margin-left: 5px;
+          margin-right: 10px;
+        }
+        .retweet1 {
+          width: 25px;
+          margin-top: 5px;
+          margin-right: auto;
+
+        }
+        .tweets {
+          display: flex;
+        }
+
+        .number_count {
+          margin-right: auto;
+          color: grey;
+        }
+        .desktop {
+          display: none;
+        }
+      }
+
+      @media (min-width:1024px) {
+        .Indesktop {
+          display: none;
+        }
+        .desktop {
+          display: flex;
+          width: 25px;
+          margin-top: 5px;
+          margin-right: auto;
+
+        }
+
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="flexbox">
+      <div><img src="assets/twitter.jpg" class="twitterpic" /></div>
+      <div class="item">
+        <div class="first">
+          <p class="bold">Twitter</p>
+          <img src="assets/tick.svg" class="tick" />
+          <p class="grey">@Twitter <span class="cen">.</span> Jan 1</p>
+          <img src="assets/drop_down.svg" class="drop_down" />
+        </div>
+        <div class="new">New decade, drink water</div>
+        <div class="tweets">
+          <img src="assets/message.svg" class="retweet" />
+          <p class="number_count">13.5K</p>
+          <img src="assets/retweet.svg" class="retweet" />
+          <p class="number_count">290.8K</p>
+          <img src="assets/like.svg" class="retweet" />
+          <p class="number_count">943.1K</p>
+          <img src="assets/share.svg" class="retweet1 Indesktop" />
+          <img src="assets/share_desktop.svg" class="desktop" />
+        </div>
+      </div>
+
+    </div>
+
+
+    <!--
+      
+     
+      <img src="assets/message.svg" class="retweet" />
+      <img src="assets/retweet.svg" class="retweet" />
+      <img src="assets/like.svg" class="retweet" />
+      <img src="assets/share.svg" class="retweet" /></div>
+      <img src="assets/share_desktop.svg" />
+      -->
+    </div>
+
+  </body>
+
+</html>
