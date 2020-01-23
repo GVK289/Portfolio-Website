@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Flexbox</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- <link rel="stylesheet" type="text/css" href="flexbox.css" /> -->
+    <style>
+      .flexbox {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .items1,
+      .items {
+        display: flex;
+        background-color: lightyellow;
+        width: 50%;
+        border-radius: 10px;
+        border: 2px solid gold;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding: 5px;
+        margin: 5px;
+      }
+
+      h3 {
+        color: purple;
+      }
+
+      .computer,
+      .printer {
+        display: flex;
+        align-self: flex-start;
+        flex-direction: column;
+        flex-grow: 1;
+      }
+
+      img {
+        height: 130px;
+      }
+
+      button {
+        padding: 5px 40px;
+        background-color: green;
+        border-radius: 10px;
+        font-size: 20px;
+        color: white;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="flexbox">
+      <div class="items1">
+        <img src="assets/computer.jpg" class="computer-image" />
+        <div class="computer">
+          <h3>Computer Starter Kit</h3>
+          <p>This is the best computer money can buy, if you don't have much money.</p>
+          <ul>
+            <li>Computer</li>
+            <li>Moniter</li>
+            <li>Keyboard</li>
+            <li>Mouse</li>
+          </ul>
+
+        </div>
+        <button href="#" class="link">BUY NOW</button>
+      </div>
+
+
+      <div class="items">
+        <img src="assets/printer.png" class="printer-image" />
+        <div class="printer">
+          <h3>Printer</h3>
+          <p>Only capable of printing ASCII art.</p>
+          <ul>
+            <li>Paper and ink not included</li>
+          </ul>
+        </div>
+        <button href="#" class="link">BUY NOW</button>
+      </div>
+    </div>
+
+
+  </body>
+
+</html>
