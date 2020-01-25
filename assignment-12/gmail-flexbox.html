@@ -14,7 +14,7 @@
             .flexbox {
                 display: flex;
                 margin-top: 10px;
-                border: 2px solid grey;
+                box-shadow: 0 2px 6px 0 grey;
                 flex-direction: column;
             }
 
@@ -29,7 +29,8 @@
                 padding: 10px;
                 flex-grow: 1;
                 justify-content: space-between;
-                border-bottom: 0.5px solid gray;
+                box-shadow: 0 0.5px 2px 0 grey;
+                margin-bottom: 2px;
             }
 
             .gmail-start {
@@ -115,16 +116,18 @@
 
                 .first {
                     display: flex;
+                    box-shadow: 0 2px 6px 0 grey;
                 }
                 .start-line {
                     display: flex;
                     flex-grow: 4;
+                    box-shadow: none;
                 }
                 .second-line {
                     display: flex;
                     align-items: center;
                     justify-content: flex-end space-around;
-
+                    box-shadow: none;
                 }
                 .expimg1 {
 
@@ -302,6 +305,13 @@
                         <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <span class="sr-only">Toggle Dropdown</span>
   </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">English(U.K)</a>
+                            <a class="dropdown-item" href="#">Hindi</a>
+                            <a class="dropdown-item" href="#">Telugu</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Other</a>
+                        </div>
                     </div>
                 </div>
 
