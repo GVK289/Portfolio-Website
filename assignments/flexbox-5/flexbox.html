@@ -1,21 +1,56 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>Flexbox</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" href="flexbox.css" />
-    <script
-      type="text/javascript"
-      src="https://tap.ibhubs.in/utils/flex-item-width.js"
-    ></script>
+    <script type="text/javascript" src="https://tap.ibhubs.in/utils/flex-item-width.js"></script>
+    <style>
+      .flexbox {
+        display: flex;
+        flex-flow: row wrap;
+        flex-basis: auto;
+
+      }
+
+      .orange {
+        width: 500px;
+        height: 100px;
+        background-color: orange;
+        flex-grow: 3;
+        flex-wrap: wrap;
+      }
+
+      .saddlebrown {
+        width: 301px;
+        height: 100px;
+        background-color: saddlebrown;
+        flex-wrap: wrap;
+        flex-grow: 2;
+      }
+
+      .green {
+
+        width: 200px;
+        height: 100px;
+        background-color: green;
+        flex-wrap: wrap;
+        flex-grow: 1;
+      }
+    </style>
+
   </head>
+
   <body>
     <div class="flexbox">
-      <!-- Write your code below this line -->
+      <div class="orange"></div>
+      <div class="saddlebrown"></div>
+      <div class="green"></div>
+
+
     </div>
   </body>
+
 </html>
