@@ -1,21 +1,112 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>Flexbox</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" href="flexbox.css" />
-    <script
-      type="text/javascript"
-      src="https://tap.ibhubs.in/utils/flex-item-width.js"
-    ></script>
+    <!--  <script type="text/javascript" src="https://tap.ibhubs.in/utils/flex-item-width.js"></script> -->
+
+    <style>
+      body {
+        background-color: gray;
+      }
+
+      .flexbox {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .header {
+        padding: 20px;
+        background-color: orange;
+        color: white;
+      }
+
+      .navigate {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .navigation {
+        display: flex;
+        width: 300px;
+        flex-grow: 1;
+        padding: 20px;
+        background-color: #055605;
+        color: white;
+        justify-content: center;
+      }
+
+      .main {
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        background-color: white;
+        text-align: center;
+        padding-bottom: 50px;
+        flex-grow: 10;
+      }
+
+      p {
+        text-align: center;
+        font-size: 20px;
+      }
+
+      .box {
+
+        border: 2px solid black;
+
+      }
+
+      .section {
+        border: 2px dotted black;
+        padding: 10px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .Article {
+        margin-top: 0px;
+      }
+
+      .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 20px;
+        background-color: #afb0b1;
+      }
+    </style>
+
   </head>
+
   <body>
     <div class="flexbox">
-      <!-- Write your code below this line -->
+      <div class="header">
+        <p>Header</p>
+      </div>
+      <div class="navigate">
+        <div class="navigation">
+          <p>Navigation</p>
+        </div>
+        <div class="main">
+          <p>Main</p>
+          <div class="box">
+            <p class="Article">Article</p>
+            <p class="section">Secction</p>
+            <p class="section">Section</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>Footer</p>
+      </div>
     </div>
   </body>
+
 </html>
