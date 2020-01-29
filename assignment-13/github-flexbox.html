@@ -43,6 +43,7 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    padding: 10px;
     justify-content: center;
     align-items: center;
    }
@@ -96,6 +97,10 @@
     padding: 10px;
    }
 
+   .ft-1-1 {
+    margin-left: 10px;
+   }
+
    .logo {
     width: 65px;
     height: 65px;
@@ -134,7 +139,7 @@
      flex-direction: row;
      flex-grow: 1;
      justify-content: flex-start;
-     padding: 10px;
+
      /*align - items: center;*/
     }
     .o-2 {
@@ -163,6 +168,7 @@
      display: flex;
      flex-direction: column;
      flex-grow: 1;
+     margin-left: 10px;
     }
     .star-bg-color {
      display: flex;
@@ -173,6 +179,7 @@
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
+     align-items: flex-start;
     }
 
 
@@ -197,7 +204,7 @@
     .popular {
      display: flex;
      flex-direction: column;
-     flex: 25%;
+     flex: 20%;
     }
 
    }
@@ -212,17 +219,18 @@
     <nav class="navbar navbar-expand-md navbar-dark header">
      <div class="git-img"><img src="assets/github-logo.svg" class="circle" /></div>
 
-     <div class="desktop d-none d-lg-flex">
+     <div class="desktop d-none d-xl-flex">
       <a class="nav-link dropdown-toggle" style="color:white" href="#">Why GitHub?</a>
+
       <a class="nav-link" style="color:white" href="#">Enterprise</a>
 
       <a class="nav-link dropdown-toggle" style="color:white" href="#">Explore</a>
 
       <a class="nav-link" style="color:white" href="#">Marketplace</a>
 
-      <a class="nav-link dropdown-toggle d-none  d-xl-flex" style="color:white" href="#">Pricing</a>
+      <a class="nav-link dropdown-toggle" style="color:white" href="#">Pricing</a>
      </div>
-     <nav class="navbar d-none d-lg-flex invert">
+     <nav class="navbar d-none d-md-none d-xl-flex invert">
       <form class="form-inline">
        <div class="input-group">
         <input type="text" class="form-control" placeholder="Search GitHub" aria-label="Search GitHub" aria-describedby="basic-addon1">
@@ -232,9 +240,9 @@
        </div>
       </form>
      </nav>
-
+     <a class="btn btn-gray d-none d-md-none d-xl-flex" style="color:white">Sign in</a>
      <a class="btn btn-gray border-white " style="color:white">Sign up</a>
-     <button class="navbar-toggler d-xl-none" type="button" data-toggle="collapse">
+     <button class="navbar-toggler d-md-flex d-xl-none" type="button" data-toggle="collapse">
       <span class="navbar-toggler-icon"></span>
     </button>
     </nav>
