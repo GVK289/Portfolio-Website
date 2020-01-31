@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Dialer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--<link rel="stylesheet" href="index.css" />-->
+    <style>
+      body {
+        background-color: white;
+      }
+
+      .flexbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /*background - color: white;*/
+      }
+
+      .header {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        padding: 10px;
+      }
+
+      .header-size {
+        font-size: 19px;
+        border: none;
+        font-weight: bold;
+      }
+
+      .history {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+
+      .h-1 {
+        display: flex;
+        /*align - items: center;*/
+        flex-grow: 1;
+      }
+
+      .avatar-img {
+        border-radius: 100px;
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        padding: 5px;
+      }
+
+
+      .sim-img {
+        width: 12px;
+        opacity: 25px;
+      }
+
+      span1 {
+        font-size: 18px;
+        color: black;
+      }
+
+      span {
+        padding-left: 2px;
+      }
+
+      .right {
+        border: none;
+        height: 25px;
+        border-radius: 40px;
+        background: lightgray;
+      }
+
+      .edge {
+        flex-grow: 1;
+        color: gray;
+      }
+
+      .right-arrow {
+        display: flex;
+        align-items: center;
+      }
+
+      .dail-pad {
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        border-top: 1px solid gray;
+        /*background-color: lightgray;*/
+        padding: 10px;
+        /*justify - content: center;*/
+      }
+
+      .num {
+        border: none;
+        text-align: center;
+        height: 25%;
+        direction: flex;
+        flex-grow: 1;
+      }
+
+      .num-font {
+        font-size: 20px;
+      }
+
+      p {
+        display: inline-block;
+      }
+
+      .numbers {
+        flex-grow: 1;
+      }
+
+      .dail-row-1,
+      .dail-row-2,
+      .dail-row-3,
+      .dail-row-4 {
+        display: flex;
+        flex-grow: 1;
+        /*flex: 100 % ;*/
+        text-align: center;
+      }
+
+      .footer {
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .foot-1 {
+        align-items: baseline;
+        display: flex;
+        /*flex - grow: 1;*/
+        justify-content: center;
+        padding: 5px;
+
+      }
+
+      .last {
+        display: flex;
+        background-color: #00cc00;
+        font-size: 20px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+        padding: 5px;
+        margin-right: 2px;
+      }
+
+      .last1 {
+        display: flex;
+        background-color: #00cc00;
+        font-size: 20px;
+        padding: 5px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+
+      }
+
+      .call-img {
+        display: flex;
+        width: 25%;
+        /*padding: 10 px;*/
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flexbox">
+
+
+      <div class="header">
+        <button class="header-size" style="color:#00cc00">Recents</button>
+        <button class="header-size">Contacts</button>
+      </div>
+
+      <div class="history">
+        <div class="h-1">
+          <img src="assets/avatar.png" class="avatar-img" />
+          <p class="edge">
+            <span1>police</span1><br>100 9:46 AM Didn't connect <span><img src="assets/sim2.png" class="sim-img"/></span></p>
+          <a href="#" class="right-arrow"><button class="right">></button></a>
+        </div>
+
+        <div class="h-1">
+          <img src="assets/avatar.png" class="avatar-img" />
+          <p class="edge">
+            <span1>Fire</span1><br>101 9:42 AM Didn't connect <span><img src="assets/sim1.png" class="sim-img"/></span></p>
+          <a href="#" class="right-arrow"><button class="right">></button></a>
+        </div>
+
+        <div class="h-1">
+          <img src="assets/avatar.png" class="avatar-img" />
+          <p class="edge">
+            <span1>HDFC Customer Care</span1><br>044616006161 9:42 AM Didn't connect <span><img src="assets/sim1.png" class="sim-img"/></span></p>
+          <a href="#" class="right-arrow"><button class="right">></button></a>
+        </div>
+
+      </div>
+
+      <div class="dail-pad">
+
+        <div class="numbers">
+          <div class="dail-row-1">
+            <button class="num"><p class="num-font">1</p><br>O_O</button>
+            <button class="num"><p class="num-font">2</p> <br> ABC</button>
+            <button class="num"><p class="num-font">3</p><br> DEF</button>
+
+          </div>
+          <div class="dail-row-2">
+            <button class="num"><p class="num-font">4</p><br> GHI</button>
+            <button class="num"><p class="num-font">5</p><br> JKL</button>
+            <button class="num"><p class="num-font">6</p><br> MNO</button>
+          </div>
+          <div class="dail-row-3">
+            <button class="num"><p class="num-font">7</p><br>PQRS</button>
+            <button class="num"><p class="num-font">8</p><br>TUV</button>
+            <button class="num"><p class="num-font">9</p><br>WXYZ</button>
+          </div>
+          <div class="dail-row-4">
+            <button class="num"><p class="num-font">*</p><br> ,  </button>
+            <button class="num"><p class="num-font">0</p><br>  +  </button>
+            <button class="num"><p class="num-font">#</p><br>  .  </button>
+          </div>
+
+
+
+        </div>
+
+
+        <div class="footer">
+          <i class="fa fa-bars"></i>
+          <div class="foot-1">
+            <p class="last"><img src="assets/call.png" class="call-img" /> Jio 4G</p>
+            <p class="last1"><img src="assets/call.png" class="call-img" /> airtel</p>
+          </div>
+          <button style="border:none;">
+            <i class="material-icons">&#xe0bc;</i>
+          </button>
+
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+
+  </body>
+
+</html>
