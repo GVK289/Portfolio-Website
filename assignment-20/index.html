@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Weather</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!--<link rel="stylesheet" href="index.css" />-->
+
+    <style>
+      .flexbox {
+        display: flex;
+        /*height: 90vw;*/
+        background-color: black;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-top: 20px;
+      }
+
+      .weather-display {
+        display: flex;
+        width: 50%;
+        /*flex - grow: 2;*/
+        background-image: url("assets/background-image.jpeg");
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        /*justify-content: center;*/
+      }
+
+      .inner-display {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        background-image: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+        opacity: 0.7;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+      }
+
+      .top {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .bottom {
+        display: flex;
+        flex-direction: column;
+      }
+
+
+      p {
+        color: white;
+        font-weight: bold;
+        margin: 0px;
+        /*display: inline - block;*/
+      }
+
+      .sun-img {
+        width: 25%;
+      }
+
+      .weather {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        padding: 10px;
+
+      }
+
+      .deatails {
+        /*display: flex;*/
+        /*flex-direction:column;*/
+      }
+
+      .para {
+        display: flex;
+        flex-grow: 1;
+        /*height: 27 px;*/
+        justify-content: center;
+      }
+
+      .para-1 {
+        flex-grow: 0.9;
+        padding: 2px;
+      }
+
+      .cloud {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        /*background: white;*/
+      }
+
+      .cloud-stats {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .sun-black-img {
+        background-color: white;
+        border-radius: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .cloud-img {
+        padding-top: 3px;
+      }
+
+      .white {
+        color: black;
+      }
+
+      .location {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+      }
+
+      .locate {
+        height: 13px;
+      }
+
+      .btn {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        background-image: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+        border-radius: 40px;
+        padding: 5px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="flexbox">
+
+
+      <div class="weather-display">
+        <div class="inner-display">
+          <div class="top ">
+            <p style="font-size:19px;">Friday</p>
+            <p style="font-weight:normal">31 Jan 2020</p>
+            <p style="font-weight:normal"><img src="assets/location.svg" class="locate"> Kurnool</p>
+          </div>
+          <div class="bottom">
+            <img src="assets/sun-white.svg" class="sun-img" />
+            <p style="font-size:24px">29<sup>o</sup>C</p>
+            <p>Sunny</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="weather">
+        <div class="deatails ">
+          <div class="para">
+            <p class="para-1 ">PRECIPITATION</p>
+            <p> 0 %</p>
+          </div>
+          <div class="para">
+            <p class="para-1 ">HUMIDITY</p>
+            <p>34 %</p>
+          </div>
+          <div class="para">
+            <p class="para-1 ">WIND</p>
+            <p>0 km/h</p>
+          </div>
+        </div>
+        <div class="cloud">
+          <div class="cloud-stats sun-black-img">
+            <img src="assets/sun-black.svg" class="cloud-img" />
+            <p class="white">Sat</p>
+            <p class="white">29<sup>o</sup>C</p>
+          </div>
+
+          <div class="cloud-stats">
+            <img src="assets/cloud.svg" class="cloud-img" />
+            <p>Sun</p>
+            <p>21<sup>o</sup>C</p>
+          </div>
+
+          <div class="cloud-stats">
+            <img src="assets/cloud-snow.svg" class="cloud-img" />
+            <p>Mon</p>
+            <p>08<sup>o</sup>C</p>
+          </div>
+
+          <div class="cloud-stats">
+            <img src="assets/cloud-rain.svg" class="cloud-img" />
+            <p>Tue</p>
+            <p>19<sup>o</sup>C</p>
+          </div>
+
+        </div>
+
+        <div class="location">
+          <button class="btn">
+        <img src="assets/location.svg" class="locate"/> change location 
+      </button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
